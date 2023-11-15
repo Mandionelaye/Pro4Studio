@@ -1,0 +1,30 @@
+.imgStudio{
+    width: 100%;
+    height: 60vh;
+}
+.titreStudio{
+    position: relative;
+    top: -105px;
+    width: 53%;
+    padding:11px  5px 11px  5px;
+    background-color: #fff;
+    left: 24%;
+
+}
+.titreStudio h1{
+    display: inline;
+    color: #2F88FF;
+font-family: Jacques Francois;
+font-style: normal;
+font-weight: 400;
+}
+.titreStudio button{
+    float: right;
+    color: #FFF;
+font-family: Jacques Francois;
+font-size: 30px;
+padding: 0px 2px 0px 2px;
+font-style: normal;
+font-weight: 400;
+margin-right: 5px;
+}

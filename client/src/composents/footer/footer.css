@@ -1,0 +1,178 @@
+.footer{
+    height: 459px;
+    background: rgba(0, 0, 0, 0.80);
+}
+.titre_footer{
+    border-bottom: 1px solid #FFF;
+    height: 55px;
+    flex-shrink: 0;
+    display: flex;
+    padding: 5px;
+}
+.titre_item1{
+ width: 50%;
+ padding-left: 30px;
+}
+.text_titre{
+    color: #FFF;
+font-family: Jacques Francois;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+margin-left: 20px;
+position: relative;
+bottom: 10px;
+}
+.log{
+    float: left;
+}
+.titre_item3{
+    width: 50%;
+}
+.copy{
+    color: #FFF;
+text-align: center;
+font-family: Jacques Francois;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.body_footer{
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+.body_elm1{
+    border-right: 1px solid #FFF;
+    width: 60%;
+}
+.bio{
+    padding: 10px;
+}
+.bio h1{
+    color: #FFF;
+font-family: Jacques Francois;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration-line: underline;
+}
+.bio p{
+    color: #FFF;
+font-family: Jacques Francois;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.carocel{
+    margin-left: 100px;
+    width: 50%;
+    height: 31vh;
+    padding: 0;
+}
+.img_carocel{
+    width: 50%;
+    height: 31vh;
+}
+.body_elm2{
+    width: 40%;
+}
+.elm2_ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding-top: 30px;
+}
+.elm2_li{
+    color: #FFF;
+text-align: center;
+font-family: Jacques Francois;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-bottom: 20px;
+}
+.elm2_li a{
+    text-decoration: none;
+    color: #FFF;
+}
+.elm2_item1{
+    border-bottom: 1px solid #FFF;
+    height: 330px;
+}
+.li_itme span{
+    margin-right: 10px;
+}
+.elm2_item2{
+    padding: 10px 10px 10px 0;
+}
+.item2_ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.item2_li{
+    text-align: center;
+    color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.link_item2{
+    text-decoration: none;
+    color: #FFF;
+}
+@media screen and (max-width: 1024px) {
+    .li_itme, .link_item2{
+        font-size: 20px;
+    }
+   
+    .carocel{
+        height: 20vh;
+    }
+    .img_carocel{
+       height: 200px;
+    }
+}
+@media screen and (max-width: 375px) {
+    .li_itme, .link_item2{
+        font-size: 10px;
+        width: 100%;
+    }
+   
+    .carocel{
+        margin-left: 20px;
+    width: 70%;
+    height: 20vh;
+    padding: 0;
+    }
+    .img_carocel{
+       height: 200px;
+
+    }
+    .bio h1{
+        font-size: 20px;
+    }
+    .bio p{
+        font-size: 10px;
+    }
+    .elm2_item1{
+        height: 250px;
+    }
+    .copy {
+        color: #FFF;
+    font-size: 20px;
+    font-weight: 300;
+    }
+    .text_titre{
+        font-size: 17px;
+    }
+    .log{
+        width: 30px !important;
+    }
+}
